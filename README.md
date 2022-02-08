@@ -24,7 +24,7 @@ $data = app('expressInquiry')->getPollQuery('快递单号');
 or
 $data = app(ExpressInquiry::class)->getPollQuery('快递单号');
 ```
-2、配置信息存于数据库中
+2、直接使用
 ```shell
 $express = new ExpressInquiry([
     'customer' => '***********************',
