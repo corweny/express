@@ -1,0 +1,30 @@
+{
+    "name": "walkerdistance\/laravel-express",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "walkerdistance",
+            "email": "walkerdistance@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Walkerdistance\\LaravelExpress\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Walkerdistance\\LaravelExpress\\ExpressServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
